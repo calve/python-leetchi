@@ -207,7 +207,7 @@ class ContributionDetail(BaseModel):
     card_number = CharField(api_name='CardName'),
     card_type = CharField(api_name='CardType'),
     card_expiration_date = CharField(api_name='CardExpiractionDate'),
-    extended_card_country = CharField(api_anem='ExtendedCardCountry')
+    extended_card_country = CharField(api_name='ExtendedCardCountry')
 
     class Meta:
         verbose_name = 'detail'
